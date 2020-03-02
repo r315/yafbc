@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "board.h"
+#include "display.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,7 +96,12 @@ int main(void)
   MX_SPI1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  LCD_Init();
+  //LCD_Rotation(LCD_LANDSCAPE);
+  LCD_Bkl(1);
+  DISPLAY_Init(0);
+  DISPLAY_Text(0,0,"Hello|");
+  //DISPLAY_SetAttribute(FONT_TRANSPARENT);
   /* USER CODE END 2 */
  
  
