@@ -32,13 +32,14 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdout.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 extern SPI_HandleTypeDef hspi1;
 extern UART_HandleTypeDef huart2;
+extern stdout_t pcom;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

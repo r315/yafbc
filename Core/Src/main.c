@@ -102,6 +102,9 @@ int main(void)
   DISPLAY_Init(0);
   DISPLAY_Text(0,0,"Hello|");
   //DISPLAY_SetAttribute(FONT_TRANSPARENT);
+
+  pcom.init();
+  pcom.xputs("Hello from debug port!");
   /* USER CODE END 2 */
  
  

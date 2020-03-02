@@ -38,6 +38,11 @@
 			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/display/display.c</location>
 		</link>
 		<link>
+			<name>lib/fifo.c</name>
+			<type>1</type>
+			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/misc/fifo.c</location>
+		</link>
+		<link>
 			<name>lib/font.c</name>
 			<type>1</type>
 			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/display/font.c</location>
@@ -51,6 +56,11 @@
 			<name>lib/st7735.c</name>
 			<type>1</type>
 			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/drv/tft/st7735.c</location>
+		</link>
+		<link>
+			<name>lib/strfunc.c</name>
+			<type>1</type>
+			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/misc/strfunc.c</location>
 		</link>
 		<link>
 			<name>Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.c</name>
