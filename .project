@@ -33,34 +33,39 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>lib/console.cpp</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/libemb/console/console.cpp</locationURI>
+		</link>
+		<link>
 			<name>lib/display.c</name>
 			<type>1</type>
-			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/display/display.c</location>
+			<locationURI>PROJECT_LOC/libemb/display/display.c</locationURI>
 		</link>
 		<link>
 			<name>lib/fifo.c</name>
 			<type>1</type>
-			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/misc/fifo.c</location>
+			<locationURI>PROJECT_LOC/libemb/misc/fifo.c</locationURI>
 		</link>
 		<link>
 			<name>lib/font.c</name>
 			<type>1</type>
-			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/display/font.c</location>
+			<locationURI>PROJECT_LOC/libemb/display/font.c</locationURI>
 		</link>
 		<link>
 			<name>lib/lcd.c</name>
 			<type>1</type>
-			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/display/lcd.c</location>
+			<locationURI>PROJECT_LOC/libemb/display/lcd.c</locationURI>
 		</link>
 		<link>
 			<name>lib/st7735.c</name>
 			<type>1</type>
-			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/drv/tft/st7735.c</location>
+			<locationURI>PROJECT_LOC/libemb/drv/tft/st7735.c</locationURI>
 		</link>
 		<link>
 			<name>lib/strfunc.c</name>
 			<type>1</type>
-			<location>/home/hmr/STM32CubeIDE/workspace_1.2.0/Flappy/libemb/misc/strfunc.c</location>
+			<locationURI>PROJECT_LOC/libemb/misc/strfunc.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32L4xx_HAL_Driver/stm32l4xx_hal.c</name>

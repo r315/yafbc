@@ -56,6 +56,7 @@ static void MX_GPIO_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
+void App(void);
 
 /* USER CODE END PFP */
 
@@ -100,11 +101,12 @@ int main(void)
   //LCD_Rotation(LCD_LANDSCAPE);
   LCD_Bkl(1);
   DISPLAY_Init(0);
-  DISPLAY_Text(0,0,"Hello|");
+  //DISPLAY_Text(0,0,"Hello|");
   //DISPLAY_SetAttribute(FONT_TRANSPARENT);
 
   pcom.init();
   pcom.xputs("Hello from debug port!");
+
   /* USER CODE END 2 */
  
  
@@ -113,7 +115,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
+	  App();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
