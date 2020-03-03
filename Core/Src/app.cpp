@@ -128,8 +128,8 @@ public:
 	}
 };
 
-//void FLAPPY_Init(void);
-//void FLAPPY_Loop(void);
+void FLAPPY_Init(void);
+void FLAPPY_Loop(void);
 
 extern "C"
 void App(){
@@ -144,8 +144,11 @@ void App(){
 	con.addCommand(&test);
 	con.cls();
 
+	FLAPPY_Init();
+	DISPLAY_SetAttribute(FONT_TRANSPARENT);
+
 	while(1){
 		con.process();
-		//FLAPPY_Loop();
+		FLAPPY_Loop();
 	}
 }

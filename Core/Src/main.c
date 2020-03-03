@@ -102,7 +102,6 @@ int main(void)
   LCD_Bkl(1);
   DISPLAY_Init(0);
   //DISPLAY_Text(0,0,"Hello|");
-  //DISPLAY_SetAttribute(FONT_TRANSPARENT);
 
   pcom.init();
   pcom.xputs("Hello from debug port!");
@@ -287,7 +286,7 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin : BTN1_Pin */
   GPIO_InitStruct.Pin = BTN1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(BTN1_GPIO_Port, &GPIO_InitStruct);
 
 }
