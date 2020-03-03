@@ -29,11 +29,11 @@ Nucleo
 
 ## Devboard:
 
-![Dev-Board](https://raw.githubusercontent.com/r315-/yafbc/master/nucleo-display.jpg)
+![Dev-Board](https://raw.githubusercontent.com/r315/yafbc/master/nucleo-display.jpg)
 
 ## Ingame:
 
-![In-Game](https://raw.githubusercontent.com/r315-/yafbc/master/flappy-in-game.jpg)
+![In-Game](https://raw.githubusercontent.com/r315/yafbc/master/flappy-in-game.jpg)
 
 ## Future work
 
