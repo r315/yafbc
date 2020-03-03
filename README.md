@@ -38,7 +38,7 @@ Nucleo
 ## Future work
 
 There is a lot that can be done on the libraries and drivers, but one this that for sure will be an improvement 
-is to take advantage os the DMA block for transferring data to the display
+is to take advantage of the DMA block for transferring data to the display
 
 
 
